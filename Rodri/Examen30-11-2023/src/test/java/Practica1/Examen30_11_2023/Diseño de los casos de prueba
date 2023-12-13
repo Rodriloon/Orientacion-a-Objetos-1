@@ -1,0 +1,19 @@
+ Enfocandose en la funcionalidad que permite determinar la recaudacion generada por una mascota en una
+fecha dada, se van a testear los siguientes metodos de las clases anunciadas:
+
+Clase Mascota - Metodo RecaudacionPorFecha(diaX: LocalDate)
+Casos de prueba identificados: 
+ Que la mascota tenga servicios el seleccionado, Que la mascota no tenga servicios el dia seleccionado.
+
+Clase Consulta - Metodo costo()
+Casos de prueba identificados: 
+ Que sea un Día Domingo, que sea Miércoles (O cualquier día distinto a Domingo).
+ También para asegurarme que los calculos sean correctos probaría que el veterinario haya ingresado a la veterinaria este año y otro caso en el que tenga 5 años de antigüedad.
+
+Clase Vacunacion - Metodo costo()
+Casos de prueba identificados:
+ Que sea un Día Domingo, que sea Miércoles (O cualquier día distinto a Domingo).
+
+Clase Guarderia - Metodo costo()
+Casos de prueba identificados:
+ Que la mascota haya tenido 5 o mas servicios y se le aplique el descuento, y otro caso en el que no haya tenido mas de 4 servicios y no se le aplique el descuento.
